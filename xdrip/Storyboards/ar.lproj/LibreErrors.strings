@@ -1,0 +1,4 @@
+"receivedDataIsNil" = "لم يتم استقبال بيانات من سيرفر OOP Web";
+"oOPWebServerError" = "خطأ في سيرفر OOP Web: ";
+"libreUSNotSupported" = "الليبري الأمريكي غير مدعوم";
+"libreSensorNotReady" = "حساس الليبري غير جاهز أو منتهي";

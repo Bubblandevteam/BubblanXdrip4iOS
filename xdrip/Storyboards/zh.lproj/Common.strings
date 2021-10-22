@@ -1,0 +1,119 @@
+ "common_Ok" = "确认"; "common_cancel" = "取消";
+"common_mgdl" = "mg/dL";
+"common_mmol" = "mmol/l";
+"common_bloodglucoseunit" = "血糖值单位";
+"common_bloodglucoseunit_short" = "血糖单位";
+"common_password" = "密码";
+"common_default" = "默认";
+"common_high" = "高";
+"common_low" = "低";
+"common_hour" = "小时";
+"common_hours" = "小时";
+"common_minutes" = "分钟";
+"common_minute" = "分钟";
+"common_day" = "天";
+"common_week" = "周";
+"warning" ="警报 !";
+"update" = "更新";
+"add" = "添加";
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// for settings row, literally firmware
+"firmware" = "Firmware";
+
+/// for settings row, literally hardware
+"hardware" = "Hardware";
+
+/// on
+"on" = "On";
+
+/// red
+"red" = "red";
+
+/// 
+"off" = "Off";
+
+/// to show the sensor status
+"sensorStatus" = "Sensor status:";
+
+/// yellow
+"yellow" = "yellow";
+
+/// 
+"delete" = "Delete";
+
+/// literally no, without capital
+"no" = "No";
+
+/// green
+"green" = "green";
+
+/// name
+"name" = "Name:";
+
+/// literally yes, without capital
+"yes" = "Yes";
+
+/// literally 'Cancel'
+"common_cancel" = "Cancel";
+
+/// white
+"white" = "white";
+
+/// WiFi
+"WiFi" = "WiFi";
+
+/// whenever invalid value is given by user somewhere in a field
+"invalidValue" = "Invalid Value";
+
+/// general usage
+"unknown" = "Unknown";
+
+/// literally 'OK'
+"common_Ok" = "OK";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// Where credentials need to be given, if either account or password is invalid (for the moment only applicable to Dexcom Share
+"invalidAccountOrPassword" = "Invalid account or password";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// the word today
+"common_todayshort" = "Today";
+
+/// the word high
+"common_statistics_high" = "High";
+
+/// phrase HbA1c
+"common_statistics_a1c" = "HbA1c";
+
+/// coefficient of variation
+"common_statistics_cv" = "CV";
+
+/// the word low
+"common_statistics_low" = "Low";
+
+/// literal translation needed
+"common_days" = "days";
+
+/// the word average
+"common_statistics_average" = "Average";
+
+/// literal translation needed
+"common_dayshort" = "d";
+
+/// the word today
+"common_today" = "Today";
+
+/// the words in range
+"common_statistics_inRange" = "In Range";
+
+/// literal translation needed
+"common_hourshort" = "h";

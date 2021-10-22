@@ -1,0 +1,7 @@
+"starting" = "iniciando";
+"expired" = "caducado";
+"shutdown" = "parado";
+"ready" = "listo";
+"failure" = "error";
+"unknown" = "desconocido";
+"notYetStarted" = "sin iniciar";

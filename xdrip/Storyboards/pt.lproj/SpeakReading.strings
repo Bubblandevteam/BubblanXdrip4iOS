@@ -1,0 +1,14 @@
+"high" = "hiper";
+"low" = "hipo";
+"currentglucose" = "A sua glicose actual é";
+"trendnoncomputable" = "não computável";
+"trenddoubledown" = "descida rápida";
+"trendsingledown" = "descida lenta";
+"trendfortyfivedown" = "descida";
+"trendflat" = "estável";
+"trendfortyfiveup" = "subida";
+"trendsingleup" = "subida lenta";
+"trenddoubleup" = "subida rápida";
+"currenttrend" = "A tender";
+"deltanoncomputable" = "não computável";
+"currentdelta" = "A diferença da última leitura é";
