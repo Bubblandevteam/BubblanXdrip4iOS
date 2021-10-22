@@ -8,5 +8,5 @@ enum ConstantsHomeView {
     static let infoEmailAddress = "support@diaboxapp.com"
     
     /// application name, appears in licenseInfo as title
-    static let applicationName = "Bubblanxdrip4iOS"
+    static let applicationName = "BubblanXdrip4iOS"
 }
