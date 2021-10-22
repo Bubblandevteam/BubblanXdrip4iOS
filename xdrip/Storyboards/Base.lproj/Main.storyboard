@@ -22,7 +22,7 @@
                                 <subviews>
                                     <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVG-ML-9xd">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="58"/>
-                                        <color key="backgroundColor" red="0.098039215690000001" green="0.2470588235" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.13725490200000001" green="0.1529411765" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                         <items>
                                             <barButtonItem title="Item" image="moon.zzz" catalog="system" id="f3E-Tt-LBV">
                                                 <connections>
@@ -53,7 +53,7 @@
                                                 </connections>
                                             </barButtonItem>
                                         </items>
-                                        <color key="barTintColor" red="0.098039215690000001" green="0.2470588235" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="barTintColor" red="0.13725490200000001" green="0.1529411765" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                     </toolbar>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C16-NQ-F1Y">
                                         <rect key="frame" x="0.0" y="58" width="390" height="381"/>
@@ -86,7 +86,7 @@
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0nE-AX-r0w" customClass="BloodGlucoseChartView" customModule="xdrip" customModuleProvider="target">
                                                 <rect key="frame" x="10" y="132.66666666666663" width="380" height="248.33333333333337"/>
-                                                <color key="backgroundColor" red="0.098039215690000001" green="0.2470588235" blue="0.41759020993954071" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.074509803920000006" green="0.094117647060000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <gestureRecognizers/>
                                                 <connections>
                                                     <outletCollection property="gestureRecognizers" destination="Fi5-iu-Usk" appends="YES" id="Rkv-hK-sLH"/>
@@ -404,7 +404,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--:--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="rSC-H3-vfk">
                                                 <rect key="frame" x="20" y="-1.6666666666666288" width="350" height="143.33333333333334"/>
-                                                <color key="backgroundColor" red="0.098039215690000001" green="0.2470588235" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.074509803920000006" green="0.094117647060000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -426,14 +426,14 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.098039215690000001" green="0.2470588235" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.13725490200000001" green="0.1529411765" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="x9u-yg-PXE" firstAttribute="top" secondItem="C16-NQ-F1Y" secondAttribute="bottom" id="WZ6-cn-zwk"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
-                        <color key="backgroundColor" red="0.098039215690000001" green="0.2470588235" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.1529411765" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="TCd-nD-ZjE" secondAttribute="bottom" id="1jB-rF-k5V"/>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="TCd-nD-ZjE" secondAttribute="trailing" id="Zlf-Ns-41n"/>
