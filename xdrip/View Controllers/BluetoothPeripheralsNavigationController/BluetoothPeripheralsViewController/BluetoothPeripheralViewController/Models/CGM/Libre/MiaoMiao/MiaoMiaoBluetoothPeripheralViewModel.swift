@@ -1,6 +1,6 @@
 import UIKit
 
-class MiaoMiaoBluetoothPeripheralViewModel {
+/* class MiaoMiaoBluetoothPeripheralViewModel {
     
     // MARK: - private properties
     
@@ -310,4 +310,4 @@ extension MiaoMiaoBluetoothPeripheralViewModel: CGMMiaoMiaoTransmitterDelegate {
         }
     }
     
-}
+}*/
