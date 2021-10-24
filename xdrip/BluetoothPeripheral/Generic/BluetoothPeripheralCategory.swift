@@ -4,7 +4,7 @@ import Foundation
 enum BluetoothPeripheralCategory: String, CaseIterable {
     
     /// for Dexcom, bubble, MiaoMiao ...
-    case CGM = "Bubble"
+    case CGM = "Bubblan"
     
     /// this is the category for M5Stack ad M5StickC
     case M5Stack = "M5Stack"

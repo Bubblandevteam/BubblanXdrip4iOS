@@ -12,16 +12,15 @@ enum BluetoothPeripheralType: String, CaseIterable {
     
     /// M5StickC
     case M5StickCType = "M5StickC"
-
+    
+    /// bubble
+    case BubbleType = "Bubblan / Bubblan Mini"
     /// Libre 2
-    case Libre2Type = "erbiL 2 Direct"
+    case Libre2Type = "L2 Direct"
     /*
     /// MiaoMiao
     case MiaoMiaoType = "MiaoMiao"
     */
-    /// bubble
-    case BubbleType = "Bubble / Bubble Mini"
-    
     /// DexcomG6
     case DexcomG6Type = "Dxcom G6"
     
