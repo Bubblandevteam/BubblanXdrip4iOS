@@ -8,7 +8,7 @@ public class MiaoMiao: NSManagedObject {
     
     // sensorState
     public var sensorState: LibreSensorState = .unknown
-    
+    /*
   /// create MiaoMiao
     /// - parameters:
     init(address: String, name: String, alias: String?, nsManagedObjectContext:NSManagedObjectContext) {
@@ -19,7 +19,7 @@ public class MiaoMiao: NSManagedObject {
         
         blePeripheral = BLEPeripheral(address: address, name: name, alias: nil, bluetoothPeripheralType: .MiaoMiaoType, nsManagedObjectContext: nsManagedObjectContext)
         
-    }
+    }*/
     
     private override init(entity: NSEntityDescription, insertInto context: NSManagedObjectContext?) {
         super.init(entity: entity, insertInto: context)

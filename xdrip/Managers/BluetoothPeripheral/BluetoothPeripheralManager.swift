@@ -219,7 +219,7 @@ class BluetoothPeripheralManager: NSObject {
                         }
                         
                     }
-                    
+                    /*
                 case .MiaoMiaoType:
                     
                     if let miaoMiao = blePeripheral.miaoMiao {
@@ -246,7 +246,7 @@ class BluetoothPeripheralManager: NSObject {
                         }
                         
                     }
-                 
+                */
                 case .AtomType:
                     
                     if let atom = blePeripheral.atom {
@@ -513,7 +513,7 @@ class BluetoothPeripheralManager: NSObject {
                     // no need to send reading to watlaa in master mode
                     break
                     
-                case .DexcomG5Type, .BubbleType, .MiaoMiaoType, .BluconType, .GNSentryType, .BlueReaderType, .DropletType, .DexcomG4Type, .DexcomG6Type, .Libre2Type, .AtomType:
+                case .DexcomG5Type, .BubbleType, .BluconType, .GNSentryType, .BlueReaderType, .DropletType, .DexcomG4Type, .DexcomG6Type, .Libre2Type, .AtomType:
                     // cgm's don't receive reading, they send it
                     break
                     
@@ -633,7 +633,7 @@ class BluetoothPeripheralManager: NSObject {
                             
                         }
                     }
-                    
+                  /*
                 case .MiaoMiaoType:
                     
                     if let miaoMiao = bluetoothPeripheral as? MiaoMiao {
@@ -648,7 +648,7 @@ class BluetoothPeripheralManager: NSObject {
                             
                         }
                     }
-                    
+                    */
                 case .AtomType:
                     
                     if let atom = bluetoothPeripheral as? Atom {
@@ -788,12 +788,12 @@ class BluetoothPeripheralManager: NSObject {
                 if bluetoothTransmitter is CGMBubbleTransmitter {
                     return .BubbleType
                 }
-                
+             /*
             case .MiaoMiaoType:
                 if bluetoothTransmitter is CGMMiaoMiaoTransmitter {
                     return .MiaoMiaoType
                 }
-                
+                */
             case .AtomType:
                 if bluetoothTransmitter is CGMAtomTransmitter {
                     return .AtomType
@@ -876,7 +876,7 @@ class BluetoothPeripheralManager: NSObject {
             }
             
             return CGMBubbleTransmitter(address: nil, name: nil, bluetoothTransmitterDelegate: bluetoothTransmitterDelegate ?? self, cGMBubbleTransmitterDelegate: self, cGMTransmitterDelegate: cgmTransmitterDelegate,  sensorSerialNumber: nil, webOOPEnabled: nil, nonFixedSlopeEnabled: nil)
-            
+            /*
         case .MiaoMiaoType:
             
             guard let cgmTransmitterDelegate = cgmTransmitterDelegate else {
@@ -884,7 +884,7 @@ class BluetoothPeripheralManager: NSObject {
             }
             
             return CGMMiaoMiaoTransmitter(address: nil, name: nil, bluetoothTransmitterDelegate: bluetoothTransmitterDelegate ?? self, cGMMiaoMiaoTransmitterDelegate: self, cGMTransmitterDelegate: cgmTransmitterDelegate,  sensorSerialNumber: nil, webOOPEnabled: nil, nonFixedSlopeEnabled: nil)
-            
+            */
         case .AtomType:
             
             guard let cgmTransmitterDelegate = cgmTransmitterDelegate else {
@@ -1172,7 +1172,7 @@ class BluetoothPeripheralManager: NSObject {
                     bluetoothPeripheral.blePeripheral.parameterUpdateNeededAtNextConnect = true
                 }
              
-            case .WatlaaType, .DexcomG5Type, .BubbleType, .MiaoMiaoType, .BluconType, .GNSentryType, .BlueReaderType, .DropletType, .DexcomG4Type, .DexcomG6Type, .Libre2Type, .AtomType:
+            case .WatlaaType, .DexcomG5Type, .BubbleType, .BluconType, .GNSentryType, .BlueReaderType, .DropletType, .DexcomG4Type, .DexcomG6Type, .Libre2Type, .AtomType:
                 
                 // nothing to check
                 break

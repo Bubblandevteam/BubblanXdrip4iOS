@@ -15,10 +15,10 @@ enum BluetoothPeripheralType: String, CaseIterable {
 
     /// Libre 2
     case Libre2Type = "erbiL 2 Direct"
-    
+    /*
     /// MiaoMiao
     case MiaoMiaoType = "MiaoMiao"
-    
+    */
     /// bubble
     case BubbleType = "Bubble / Bubble Mini"
     
@@ -68,10 +68,10 @@ enum BluetoothPeripheralType: String, CaseIterable {
             
         case .BubbleType:
             return BubbleBluetoothPeripheralViewModel()
-            
+          /*
         case .MiaoMiaoType:
             return MiaoMiaoBluetoothPeripheralViewModel()
-            
+            */
         case .BluconType:
             return BluconBluetoothPeripheralViewModel()
             
@@ -95,7 +95,13 @@ enum BluetoothPeripheralType: String, CaseIterable {
             
         case .AtomType:
             return AtomBluetoothPeripheralViewModel()
-            
+           /*
+        case .MiaoMiaoType:
+            <#code#>
+        case .MiaoMiaoType:
+            <#code#>
+        case .MiaoMiaoType:
+            <#code#>*/
         }
         
     }
@@ -136,11 +142,11 @@ enum BluetoothPeripheralType: String, CaseIterable {
         case .BubbleType:
             
             return Bubble(address: address, name: name, alias: nil, nsManagedObjectContext: nsManagedObjectContext)
-            
+         /*
         case .MiaoMiaoType:
             
             return MiaoMiao(address: address, name: name, alias: nil, nsManagedObjectContext: nsManagedObjectContext)
-            
+            */
         case .BluconType:
             
             return Blucon(address: address, name: name, alias: nil, nsManagedObjectContext: nsManagedObjectContext)
@@ -181,7 +187,7 @@ enum BluetoothPeripheralType: String, CaseIterable {
         case .M5StackType, .M5StickCType:
             return .M5Stack
             
-        case .DexcomG5Type, .BubbleType, .MiaoMiaoType, .BluconType, .GNSentryType, .BlueReaderType, .DropletType, .DexcomG4Type, .DexcomG6Type, .WatlaaType, .Libre2Type, .AtomType:
+        case .DexcomG5Type, .BubbleType, .BluconType, .GNSentryType, .BlueReaderType, .DropletType, .DexcomG4Type, .DexcomG6Type, .WatlaaType, .Libre2Type, .AtomType:
             return .CGM
             
         }
@@ -193,7 +199,7 @@ enum BluetoothPeripheralType: String, CaseIterable {
         
         switch self {
             
-        case .M5StackType, .M5StickCType, .WatlaaType, .BubbleType, .MiaoMiaoType, .GNSentryType, .BlueReaderType, .DropletType, .Libre2Type, .AtomType:
+        case .M5StackType, .M5StickCType, .WatlaaType, .BubbleType,.GNSentryType, .BlueReaderType, .DropletType, .Libre2Type, .AtomType:
             return false
             
         case .DexcomG5Type, .BluconType, .DexcomG4Type, .DexcomG6Type:
@@ -243,7 +249,7 @@ enum BluetoothPeripheralType: String, CaseIterable {
             }
             return nil
             
-        case .M5StackType, .M5StickCType, .WatlaaType, .BubbleType, .MiaoMiaoType, .GNSentryType, .BlueReaderType, .DropletType, .Libre2Type, .AtomType:
+        case .M5StackType, .M5StickCType, .WatlaaType, .BubbleType, .GNSentryType, .BlueReaderType, .DropletType, .Libre2Type, .AtomType:
             // no transmitter id means no validation to do
             return nil
             
@@ -271,7 +277,7 @@ enum BluetoothPeripheralType: String, CaseIterable {
         case .M5StackType, .M5StickCType, .WatlaaType, .DexcomG4Type, .DexcomG5Type, .DexcomG6Type, .BluconType, .BlueReaderType, .DropletType , .GNSentryType:
             return false
             
-        case .BubbleType, .MiaoMiaoType, .AtomType:
+        case .BubbleType, .AtomType:
             return true
             
         case .Libre2Type:
@@ -290,7 +296,7 @@ enum BluetoothPeripheralType: String, CaseIterable {
        case .M5StackType, .M5StickCType, .DexcomG4Type, .DexcomG5Type, .DexcomG6Type:
            return false
            
-       case .BubbleType, .MiaoMiaoType, .WatlaaType, .BluconType, .BlueReaderType, .DropletType , .GNSentryType, .AtomType:
+       case .BubbleType, .WatlaaType, .BluconType, .BlueReaderType, .DropletType , .GNSentryType, .AtomType:
            return true
         
        case .Libre2Type:

@@ -425,7 +425,7 @@ class Trace {
                             traceInfo.appendStringAndNewLine("    batteryLevel : " + gNSEntry.batteryLevel.description)
                             
                         }
-
+/*
                     case .MiaoMiaoType:
                         if let miaoMiao = blePeripheral.miaoMiao {
                             
@@ -433,7 +433,7 @@ class Trace {
                             traceInfo.appendStringAndNewLine("    batteryLevel : " + miaoMiao.batteryLevel.description)
                             
                         }
-                        
+                        */
                     case .AtomType:
                         if let miaoMiao = blePeripheral.atom {
                             

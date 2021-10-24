@@ -1,5 +1,5 @@
 import Foundation
-
+/*
 extension MiaoMiao: BluetoothPeripheral {
     
     func bluetoothPeripheralType() -> BluetoothPeripheralType {
@@ -9,3 +9,4 @@ extension MiaoMiao: BluetoothPeripheral {
     }
  
 }
+*/
