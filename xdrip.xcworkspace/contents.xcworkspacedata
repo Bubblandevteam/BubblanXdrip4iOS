@@ -5,7 +5,7 @@
       location = "group:xDripConfigOverride.xcconfig">
    </FileRef>
    <FileRef
-      location = "group:xdrip.xcodeproj">
+      location = "group:/Users/antonbackman/Desktop/BubblanXdrip4iOS/xdrip.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
