@@ -1,5 +1,5 @@
 import Foundation
-
+/*
 struct SlopeParameters {
     
     var LOW_SLOPE_1:Double
@@ -13,3 +13,4 @@ struct SlopeParameters {
     var DEFAUL_HIGH_SLOPE_LOW:Double
     
 }
+*/

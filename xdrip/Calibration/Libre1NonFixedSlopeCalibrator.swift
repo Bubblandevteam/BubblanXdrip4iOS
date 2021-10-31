@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+/*
 class Libre1NonFixedSlopeCalibrator:Calibrator {
     
     var rawValueDivider: Double = 1000.0
@@ -21,3 +21,4 @@ class Libre1NonFixedSlopeCalibrator:Calibrator {
     }
 
 }
+*/
