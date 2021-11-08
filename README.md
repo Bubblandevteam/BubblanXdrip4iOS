@@ -30,4 +30,6 @@ Current Status :
 
 - create events in Calendar when new glucose reading is received. This to support AppleWatch. More info : https://github.com/JohanDegraeve/xdripswift/wiki/Calendar-Events---Apple-Watch
 
-For developers : please go to the Wiki : https://github.com/JohanDegraeve/xdripswift/wiki
+
+ - All CREDITS TOO
+ https://github.com/JohanDegraeve/xdripswift/wiki
